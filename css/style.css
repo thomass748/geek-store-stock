@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1A1B26;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #F8FAFC;
+}
+
+header h1 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#titulo_header {
+    display: flex;
+    gap: 20px;
+}
+
+#titulo_header p {
+    background-color: #B026FF;
+    color: #F8FAFC;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px
+}
+
+#descricao_personagens {
+    background-color: #0D0E15;
+    padding: 60px;
+    color: #F8FAFC;
+    text-align: center;
+}
+
+#descricao_personagens h2 {
+    font-size: 50px;
+}
+
+#galeria {
+    background-color: #0D0E15;
+}
+
+#titulo_galeria {
+    padding: 30px;
+    color:#B026FF;
+    text-align: center;
+}
+
+#titulo_galeria h2 {
+    font-size: 40px;
+    color: #B026FF;
+}
+
+
+#img-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+#card {
+    background-color: #292C42;
+    margin: 1%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    color: #F8FAFC;
+}
+
+#card img {
+    width: 22vw;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#mais {
+    text-align: center;
+    color: #0045ac;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white
+}
+
+.botao_verde {
+    text-decoration: none;
+    background-color:#39FF14;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#000000
+}
+
+.botao_claro {
+    text-decoration: none;
+    background-color: #A8A8A8;
+    padding: 12px;
+    color: #000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.verde {
+    color: #B026FF;
+}
