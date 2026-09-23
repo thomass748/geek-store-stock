@@ -76,16 +76,17 @@ header h1 {
     text-align: center;
     padding-bottom: 10px;
     border-radius: 20px;
-    width: 25%;
-    height: 25%;
-    object-fit: cover;
+    width: 25vw;
+    height: 27vw;
     color: #F8FAFC;
 }
 
 #card img {
     width: 22vw;
+    height: 22vw;
     padding: 20px;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 #mais {
@@ -117,7 +118,7 @@ footer {
 
 .botao_claro {
     text-decoration: none;
-    background-color: #A8A8A8;
+    background-color: #787b92;
     padding: 12px;
     color: #000;
     border-radius: 10px;
